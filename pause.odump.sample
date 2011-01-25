@@ -1,0 +1,6 @@
+08048060 <_start>:
+ 8048060:	31 c0                	xor    eax,eax
+ 8048062:	b0 1d                	mov    al,0x1d
+ 8048064:	cd 80                	int    0x80
+
+Disassembly of section .stab:
