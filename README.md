@@ -2,10 +2,6 @@ shellgame
 ==============
 Shellcode manipulation and conversion utilities.
 
-shellgames expect YOU to be smart about the file you want your shellcode to be generated from.
-provide a file with several sections that have shellcode and this tool will happily convert
-it all to shellcode although that's probably not what you want.
-
 ## Usage
 
 Create your own utilities from shellgame:
@@ -40,9 +36,9 @@ You may need to run something like this to get your objdump output:
 
 ## Features
 * Commandline utilities for:
-** Objdump to shellcode conversion
-** Shellcode to C source conversion
-** Shellcode to asm conversion
+	* Objdump to shellcode conversion
+	* Shellcode to C source conversion
+	* Shellcode to asm conversion
 * Object-oriented interface (write your own utilities)
 
 ## Requirements
